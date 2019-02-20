@@ -60,7 +60,7 @@ def query_text(inline_query):
 @bot.message_handler(commands=['start'])
 def command_start(m):
     cid = m.chat.id
-    bot.send_message(cid, "Just write in any Telegram chat @filmratingbot name_of_the_film and you will get a search with films and series. Enjoy it!")
+    bot.send_message(cid, "Just write in any Telegram chat @ABIMDBBot name_of_the_film and you will get a search with films and series. Enjoy it ! A Bot By @AbinPauIZackariah!")
 
 
 @bot.message_handler(commands=['code'])
