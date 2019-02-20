@@ -1,3 +1,2 @@
 pyTelegramBotAPI
 OMDb
-Placehold.it
