@@ -1,1 +1,1 @@
-worker : python bot_inline.py
+worker: python3 bot_inline.py
