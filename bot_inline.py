@@ -10,7 +10,7 @@ from telebot import types  # Tipos para la API del bot.
 
 from key import *
 
-bot = telebot.TeleBot(TOKEN)  # Creamos el objeto de nuestro bot.
+bot = telebot.TeleBot(831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0)  # Creamos el objeto de nuestro bot.
 
 
 @bot.inline_handler(lambda query: len(query.query) > 3)
