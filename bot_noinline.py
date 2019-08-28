@@ -10,7 +10,7 @@ import requests
 import urllib
 from key import *
 
-TOKEN=831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0
+TOKEN = "831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0"
 
 bot = telebot.TeleBot(TOKEN) # Creamos el objeto de nuestro bot.
 
