@@ -9,7 +9,7 @@ import telebot  # Librería de la API del bot.
 from telebot import types  # Tipos para la API del bot.
 
 from key import *
-TOKEN=831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0
+TOKEN = "831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0"
 
 bot = telebot.TeleBot(TOKEN)  # Creamos el objeto de nuestro bot.
 
