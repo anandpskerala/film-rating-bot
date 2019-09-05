@@ -17,7 +17,7 @@ bot = telebot.TeleBot(TOKEN)  # Creamos el objeto de nuestro bot.
 @bot.inline_handler(lambda query: len(query.query) > 3)
 def query_text(inline_query):
     try:
-        url = 'http://www.omdbapi.com/?s=' + inline_query.query + '&apikey=435c5745'
+        url = 'http://www.omdbapi.com/?t=' + inline_query.query + '&apikey=435c5745'
 
         r = requests.get(url)
         json_object = r.json()
