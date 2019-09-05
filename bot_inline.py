@@ -37,7 +37,7 @@ def query_text(inline_query):
                     title = title.replace(" ", "+")
                     picfilm = 'https://placeholdit.imgix.net/~text?txtsize=90&bg=ffffff&txt=' + title + '&w=512&h=512&fm=jpg&txttrack=0.jpg'
 
-                url = 'http://www.omdbapi.com/?i=' + idfilm
+                url = 'http://www.omdbapi.com/?i=' + idfilm + '&apikey=435c5745'
 
                 r = requests.get(url)
                 json_object = r.json()
