@@ -8,7 +8,7 @@ import time # Librería para hacer que el programa que controla el bot no se aca
 import json
 import requests
 import urllib
-from key import *
+
 
 TOKEN = "831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0"
 
