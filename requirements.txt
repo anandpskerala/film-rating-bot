@@ -1,2 +1,2 @@
-https://github.com/Keralasbots/KBPython
+git+git https://github.com/Keralasbots/KBPython
 OMDb
