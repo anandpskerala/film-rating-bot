@@ -5,13 +5,13 @@ import json
 import time  # Librería para hacer que el programa que controla el bot no se acabe.
 
 import requests
-import telebot  # Librería de la API del bot.
-from telebot import types  # Tipos para la API del bot.
+import keralasbot  # Librería de la API del bot.
+from keralasbot import types  # Tipos para la API del bot.
 
 
 TOKEN = "831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0"
 
-bot = telebot.TeleBot(TOKEN)  # Creamos el objeto de nuestro bot.
+bot = keralasbot.keralasbot(TOKEN)  # Creamos el objeto de nuestro bot.
 
 
 @bot.inline_handler(lambda query: len(query.query) > 3)
