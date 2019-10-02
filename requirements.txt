@@ -1,2 +1,2 @@
 OMDb
-https://github.com/Keralasbots/v1_python/blob/master/KBPython-master.zip
+https://api.github.com/repos/keralasbots/KBPYTHON/zipball/
