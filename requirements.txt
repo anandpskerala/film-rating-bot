@@ -1,2 +1,2 @@
 OMDb
-https://github.com/Keralasbots/KBPython.git
+https://github.com/Keralasbots/v1_python/blob/master/KBPython-master.zip
