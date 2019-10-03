@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
-import keralasbot # Librería de la API del bot.
-from keralasbot import types # Tipos para la API del bot.
+import keralabot # Librería de la API del bot.
+from keralabot import types # Tipos para la API del bot.
 import time # Librería para hacer que el programa que controla el bot no se acabe.
 
 import json
@@ -12,7 +12,7 @@ import urllib
 
 TOKEN = "831824871:AAFsHCklhY4JWX9JuhXXVNby6NKJF-eFKP0"
 
-bot = keralasbot.keralasbot(TOKEN) # Creamos el objeto de nuestro bot.
+bot = keralabot.bot(TOKEN) # Creamos el objeto de nuestro bot.
 
 def obtener(m,namex,cid):
     boolxd = namex[:21] == '/score@imdb_score_bot'
